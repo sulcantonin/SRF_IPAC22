@@ -15,6 +15,14 @@ experiencing in operation.
 ## Paper
 - [paper](https://accelconf.web.cern.ch/ipac2022/papers/tupopt062.pdf) 
 - [poster](https://github.com/sulcantonin/BPM_IPAC22/blob/main/tupopt062_poster.pdf)
+
+## Model
 - [torch model](https://github.com/sulcantonin/BPM_IPAC22/blob/main/models/anomaly_epoch_0127) 
-- [torch training_data](https://github.com/sulcantonin/BPM_IPAC22/blob/main/model/training_data.pickle)
-- [torch shuffle](https://github.com/sulcantonin/BPM_IPAC22/blob/main/model/permutation.npy)
+- [numpy shuffle](https://github.com/sulcantonin/BPM_IPAC22/blob/main/model/permutation.npy) - this is important only for reproducibility of the test dataset
+- [torch training_data](https://github.com/sulcantonin/BPM_IPAC22/blob/main/model/training_data.pickle) - parameters of the network for training etc. 
+
+## Code
+Everything you need (it is unforutnately not a one-click thing, sorry for that) is under folder ```./code``` and ```./notebooks```. The folder ```./notebooks``` should contain both scrips for testing and running the trained model (```notebooks/test.ipynb```) as well as training script (```./notebooks/train.ipynb```) 
+
+## Data 
+TBD
